@@ -1,0 +1,85 @@
+html,body
+{
+	width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #F5F5DC;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:black;
+
+}
+h1
+{
+	color: white;
+	border-right: 2px solid white;
+	border-bottom: 2px solid white;
+	font-family: 'Great Vibes', cursive;
+	width: 300px;
+	padding-bottom: 10px;
+	padding-right: 2px;
+	text-align:center;
+	transition: all 0.5s;
+}
+h1:hover
+{
+	transform: scale(1.1);
+}
+
+
+nav
+{
+	background-color: #900C3F;
+}
+#Dashboard
+{
+	background-color: ivory;
+}
+.gallery
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 10%;
+}
+.carddet
+{
+	position: relative;
+	display: flex;
+	height: 75px;
+	width: 550px;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	transition: all 0.5s;
+}
+
+.carddet:hover
+{
+	transform: scale(1.1);
+}
+
+#card-image
+{
+	width:100px;
+	justify-content: center;
+	border: 2px solid black;
+	border-radius: 10px;
+	border-color: #900C3F;
+}
+#card-title
+{
+	width: 350px;
+	justify-content: center;
+	background-color: #900C3F;
+	color:white;
+	margin-left:5px;
+	text-align: center;
+	padding-top: 25px;
+}
+	
+
+i
+{
+	margin-top: 40px;
+}
